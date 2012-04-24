@@ -137,7 +137,7 @@
 					   to: 0];
 	
     // present and release the controller
-    [[[AppDelegate sharedDelegate] mTabBarController] presentModalViewController: reader animated: YES];
+    [[[AppDelegate shared] mTabBarController] presentModalViewController: reader animated: YES];
 	//[self.navigationController pushViewController:reader animated:YES];
     [reader release];
 }

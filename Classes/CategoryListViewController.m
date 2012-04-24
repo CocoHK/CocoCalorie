@@ -25,6 +25,10 @@
 	[super dealloc];
 }
 
+- (NSString *)iconImageName {
+	return @"ICON_STAR";
+}
+
 #pragma mark Data Source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {

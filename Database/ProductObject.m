@@ -8,7 +8,6 @@
 
 #import "ProductObject.h"
 
-
 @implementation ProductObject 
 
 @synthesize productID;

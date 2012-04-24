@@ -8,7 +8,6 @@
 
 #import "BarcodeObject.h"
 
-
 @implementation BarcodeObject 
 
 @synthesize barcode;

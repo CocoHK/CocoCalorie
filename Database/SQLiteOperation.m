@@ -103,7 +103,6 @@ static SQLiteOperation *mSharedSQLiteOperation;
 					[barcodeObject setHasValue:[NSNumber numberWithBool:YES]];
 					barcodeObject.productid = [NSString stringWithUTF8String:productIDValue];
 				}
-				
 				break;
 #warning TODO:Check if there are more results
 			}

@@ -6,12 +6,7 @@
 //  Copyright 2012 Coco. All rights reserved.
 //
 
-#import <CoreData/CoreData.h>
-
-
-@interface BarcodeObject :  NSObject  
-{
-}
+@interface BarcodeObject :  NSObject
 
 @property (nonatomic, retain) NSString * barcode;
 @property (nonatomic, retain) NSString * productid;

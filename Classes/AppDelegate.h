@@ -17,9 +17,6 @@
 @property (nonatomic, retain) BCTabBarController *mTabBarController;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
-+ (AppDelegate *)sharedDelegate;
-- (NSURL *)applicationDocumentsDirectory;
-- (NSURL *)applicationResourcesDirectory;
++ (AppDelegate *)shared;
 
 @end
-
