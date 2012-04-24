@@ -31,9 +31,11 @@
     BarcodeScannerViewController *firstViewController = [[BarcodeScannerViewController alloc] init];
     CategoryListViewController *secondViewController = [[CategoryListViewController alloc] init];
 
-	self.mTabBarController.viewControllers = [NSArray arrayWithObjects:firstViewController,secondViewController,nil];
-    
+    UINavigationController *firstNavigationController = [[UINavigationController alloc] initWithRootViewController:firstViewController];
     [firstViewController release];
+    
+	self.mTabBarController.viewControllers = [NSArray arrayWithObjects:firstNavigationController,secondViewController,nil];
+    [firstNavigationController release];
     [secondViewController release];
     
     // Set the root view controller

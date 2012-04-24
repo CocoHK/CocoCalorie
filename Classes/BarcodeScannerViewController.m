@@ -143,28 +143,28 @@
 }
 
 - (IBAction)searchCategory:(id)sender{
-	CategoryListViewController *searchResultListViewController = [[CategoryListViewController alloc] initWithNibName:@"SearchResultListViewController" bundle:nil];
+	CategoryListViewController *categoryListViewController = [[CategoryListViewController alloc] init];
 	if (sender == btnBevrages) {
-        searchResultListViewController.productsListData = [[SQLiteOperation shared] queryCategoryProducts:@"LAIT"];
+        categoryListViewController.productsListData = [[SQLiteOperation shared] queryCategoryProducts:@"LAIT"];
 	}
 	else if (sender == btnBox) {
-        searchResultListViewController.productsListData = [[SQLiteOperation shared] queryCategoryProducts:@"VIAN"];
+        categoryListViewController.productsListData = [[SQLiteOperation shared] queryCategoryProducts:@"VIAN"];
 	}
 	else if (sender == btnBreakfast) {
-        searchResultListViewController.productsListData = [[SQLiteOperation shared] queryCategoryProducts:@"GLAC"];
+        categoryListViewController.productsListData = [[SQLiteOperation shared] queryCategoryProducts:@"GLAC"];
 	}
 	else if (sender == btnFrozen) {
-        searchResultListViewController.productsListData = [[SQLiteOperation shared] queryCategoryProducts:@"GRAI"];
+        categoryListViewController.productsListData = [[SQLiteOperation shared] queryCategoryProducts:@"GRAI"];
 	}
 	else if (sender == btnMeat) {
-        searchResultListViewController.productsListData = [[SQLiteOperation shared] queryCategoryProducts:@"BOUL"];
+        categoryListViewController.productsListData = [[SQLiteOperation shared] queryCategoryProducts:@"BOUL"];
 	}
 	else if (sender == btnMilk) {
-        searchResultListViewController.productsListData = [[SQLiteOperation shared] queryCategoryProducts:@"BOIF"];
+        categoryListViewController.productsListData = [[SQLiteOperation shared] queryCategoryProducts:@"BOIF"];
 	}
-	[self.navigationController pushViewController:searchResultListViewController animated:YES];
+	[self.navigationController pushViewController:categoryListViewController animated:YES];
 	[self.navigationController setNavigationBarHidden:NO animated:YES];
-	[searchResultListViewController release];
+	[categoryListViewController release];
 }
 
 @end
