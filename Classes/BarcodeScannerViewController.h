@@ -6,11 +6,9 @@
 //  Copyright 2012 Coco. All rights reserved.
 //
 
-#import "UIViewControllerBaseClass.h"
 #import "ZBarSDK.h"
 
-
-@interface BarcodeScannerViewController : UIViewControllerBaseClass <ZBarReaderDelegate,UISearchBarDelegate>{
+@interface BarcodeScannerViewController : UIViewController <ZBarReaderDelegate,UISearchBarDelegate>{
 	IBOutlet UIButton *btnBevrages;
 	IBOutlet UIButton *btnBox;
 	IBOutlet UIButton *btnBreakfast;

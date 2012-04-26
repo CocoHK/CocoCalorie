@@ -54,16 +54,7 @@ static SQLiteOperation *mSharedSQLiteOperation;
 		}
 
 	}
-	
-//	NSString *create_table_Sql = [NSString stringWithFormat:@"CREATE TABLE IF NOT EXISTS %@(ROW INTEGER \
-//								  PRIMARY KEY AUTOINCREMENT,NAME TEXT,AGE TEXT,SEX TEXT,TEL TEXT)",tableName];
-//	
-//	char *errmsg;
-//	if(sqlite3_exec(mDatabase, [create_table_Sql UTF8String], NULL, NULL,&errmsg)!=SQLITE_OK)
-//	{
-//		NSAssert(0,@"create table failed",errmsg);
-//		return NO;
-//	}
+
 	return YES;
 }
 

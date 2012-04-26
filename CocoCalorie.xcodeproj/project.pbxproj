@@ -18,12 +18,10 @@
 		1074EA931364BF33003C8ECF /* ICON_KNOWLEDGE_HL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1074EA8F1364BF33003C8ECF /* ICON_KNOWLEDGE_HL@2x.png */; };
 		1074EA941364BF33003C8ECF /* ICON_KNOWLEDGE.png in Resources */ = {isa = PBXBuildFile; fileRef = 1074EA901364BF33003C8ECF /* ICON_KNOWLEDGE.png */; };
 		1074EA951364BF33003C8ECF /* ICON_KNOWLEDGE@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1074EA911364BF33003C8ECF /* ICON_KNOWLEDGE@2x.png */; };
-		1074EAE81364C64A003C8ECF /* UITableViewControllerBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1074EAE71364C64A003C8ECF /* UITableViewControllerBaseClass.m */; };
 		1074EC0E1364D595003C8ECF /* ICON_CAMERA_HL.png in Resources */ = {isa = PBXBuildFile; fileRef = 1074EC0A1364D595003C8ECF /* ICON_CAMERA_HL.png */; };
 		1074EC0F1364D595003C8ECF /* ICON_CAMERA_HL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1074EC0B1364D595003C8ECF /* ICON_CAMERA_HL@2x.png */; };
 		1074EC101364D595003C8ECF /* ICON_CAMERA.png in Resources */ = {isa = PBXBuildFile; fileRef = 1074EC0C1364D595003C8ECF /* ICON_CAMERA.png */; };
 		1074EC111364D595003C8ECF /* ICON_CAMERA@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 1074EC0D1364D595003C8ECF /* ICON_CAMERA@2X.png */; };
-		1079A918135120BD00FF12EB /* UIViewControllerBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1079A917135120BD00FF12EB /* UIViewControllerBaseClass.m */; };
 		1092DD7013451B21001A6966 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1092DD6A13451B21001A6966 /* libzbar.a */; };
 		1092DD7113451B21001A6966 /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1092DD6C13451B21001A6966 /* zbar-back.png */; };
 		1092DD7213451B21001A6966 /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = 1092DD6D13451B21001A6966 /* zbar-help.html */; };
@@ -128,16 +126,10 @@
 		1074EA8F1364BF33003C8ECF /* ICON_KNOWLEDGE_HL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICON_KNOWLEDGE_HL@2x.png"; sourceTree = "<group>"; };
 		1074EA901364BF33003C8ECF /* ICON_KNOWLEDGE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICON_KNOWLEDGE.png; sourceTree = "<group>"; };
 		1074EA911364BF33003C8ECF /* ICON_KNOWLEDGE@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICON_KNOWLEDGE@2x.png"; sourceTree = "<group>"; };
-		1074EAE61364C64A003C8ECF /* UITableViewControllerBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewControllerBaseClass.h; sourceTree = "<group>"; };
-		1074EAE71364C64A003C8ECF /* UITableViewControllerBaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerBaseClass.m; sourceTree = "<group>"; };
 		1074EC0A1364D595003C8ECF /* ICON_CAMERA_HL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICON_CAMERA_HL.png; sourceTree = "<group>"; };
 		1074EC0B1364D595003C8ECF /* ICON_CAMERA_HL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICON_CAMERA_HL@2x.png"; sourceTree = "<group>"; };
 		1074EC0C1364D595003C8ECF /* ICON_CAMERA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICON_CAMERA.png; sourceTree = "<group>"; };
 		1074EC0D1364D595003C8ECF /* ICON_CAMERA@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICON_CAMERA@2X.png"; sourceTree = "<group>"; };
-		1079A8B913511C9100FF12EB /* CustomUINavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUINavigationBar.h; sourceTree = "<group>"; };
-		1079A8BA13511C9100FF12EB /* CustomUINavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUINavigationBar.m; sourceTree = "<group>"; };
-		1079A916135120BD00FF12EB /* UIViewControllerBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerBaseClass.h; sourceTree = "<group>"; };
-		1079A917135120BD00FF12EB /* UIViewControllerBaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerBaseClass.m; sourceTree = "<group>"; };
 		1092DD5713451B21001A6966 /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Decoder.h; path = ZBarSDK/Headers/ZBarSDK/zbar/Decoder.h; sourceTree = SOURCE_ROOT; };
 		1092DD5813451B21001A6966 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Exception.h; path = ZBarSDK/Headers/ZBarSDK/zbar/Exception.h; sourceTree = SOURCE_ROOT; };
 		1092DD5913451B21001A6966 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Image.h; path = ZBarSDK/Headers/ZBarSDK/zbar/Image.h; sourceTree = SOURCE_ROOT; };
@@ -282,7 +274,6 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1079A8B513511C3500FF12EB /* CustomClasses */,
 				5B8E9CC2153EDC76003769B2 /* CategoryListViewController */,
 				1068713E1353BAE0007E92E8 /* ProductDetailViewController */,
 				1092DD8A13451B9C001A6966 /* BarcodeScannerViewController */,
@@ -356,19 +347,6 @@
 				1092DE4D1345322E001A6966 /* ICON_USER_HL@2x.png */,
 			);
 			name = Icons;
-			sourceTree = "<group>";
-		};
-		1079A8B513511C3500FF12EB /* CustomClasses */ = {
-			isa = PBXGroup;
-			children = (
-				1079A8B913511C9100FF12EB /* CustomUINavigationBar.h */,
-				1079A8BA13511C9100FF12EB /* CustomUINavigationBar.m */,
-				1079A916135120BD00FF12EB /* UIViewControllerBaseClass.h */,
-				1079A917135120BD00FF12EB /* UIViewControllerBaseClass.m */,
-				1074EAE61364C64A003C8ECF /* UITableViewControllerBaseClass.h */,
-				1074EAE71364C64A003C8ECF /* UITableViewControllerBaseClass.m */,
-			);
-			name = CustomClasses;
 			sourceTree = "<group>";
 		};
 		1082CE7013491F1E007B83BE /* Database */ = {
@@ -741,12 +719,10 @@
 				1092DDCD13451E0A001A6966 /* BCTabBarView.mm in Sources */,
 				1092DDD213451E0A001A6966 /* UINavigationController+icons.mm in Sources */,
 				1092DDD313451E0A001A6966 /* UIViewController+iconImage.mm in Sources */,
-				1079A918135120BD00FF12EB /* UIViewControllerBaseClass.m in Sources */,
 				106D06EB13521B5B00D59A51 /* SQLiteOperation.m in Sources */,
 				106D06F013521B7200D59A51 /* BarcodeObject.m in Sources */,
 				106D06F113521B7200D59A51 /* ProductObject.m in Sources */,
 				1068713C1353BADB007E92E8 /* ProductDetailViewController.m in Sources */,
-				1074EAE81364C64A003C8ECF /* UITableViewControllerBaseClass.m in Sources */,
 				10AC9D841365FD960064743C /* ScanResultViewController.m in Sources */,
 				5B8E9CC0153EDC71003769B2 /* CategoryListViewController.m in Sources */,
 			);
@@ -759,7 +735,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Mengke WANG (HPHWG82ABX)";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -771,7 +747,6 @@
 					"\"$(SRCROOT)/ZBarSDK\"",
 				);
 				PRODUCT_NAME = CocoCalorie;
-				PROVISIONING_PROFILE = "3B962003-E170-468C-BD22-17E47CF746FB";
 			};
 			name = Debug;
 		};

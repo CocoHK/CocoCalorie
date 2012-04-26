@@ -6,10 +6,9 @@
 //  Copyright 2012 Coco. All rights reserved.
 //
 
-#import "UITableViewControllerBaseClass.h"
 #import "ProductObject.h"
 
-@interface ProductDetailViewController : UITableViewControllerBaseClass {
+@interface ProductDetailViewController : UITableViewController {
 	NSMutableDictionary *mProductDetailDic;
     NSArray *mKeysInOrder;
 }

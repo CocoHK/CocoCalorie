@@ -6,9 +6,7 @@
 //  Copyright 2012 Coco. All rights reserved.
 //
 
-#import "UIViewControllerBaseClass.h"
-
-@interface CategoryListViewController : UIViewControllerBaseClass {
+@interface CategoryListViewController : UIViewController {
 	NSArray *productsListData;
 }
 
